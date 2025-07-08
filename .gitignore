@@ -1,3 +1,4 @@
 arch_models/
 metrics_24x24_CNN9_80e/
 metrics_24x24train_CNN9_80e.xlsx
+FPS_24x24train_CNN9_80e.xlsx
