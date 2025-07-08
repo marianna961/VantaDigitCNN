@@ -1,6 +1,5 @@
-# python async_pipeline.py --onnx chk/24x24_train_CNN_80e/best.onnx --video sip_12022025/sip_12022025 --out output/24x24_CNN9 --cam_cfg configs/camera_params_Rcopy.json --threads 8
+# python multithreaded_pipeline.py --onnx chk/24x24_train_CNN_80e/best.onnx --video sip_12022025/sip_12022025 --out output/24x24_CNN9 --cam_cfg configs/camera_params_Rcopy.json --threads 8
 """
-Асинхронный pipeline
 3 потока + две неблокирующие очереди
 Декодирование, обработка и кодирование происходят одновременно.
 """
