@@ -1,7 +1,7 @@
 import os, json, cv2
 import numpy as np
 import onnxruntime as ort
-from sklearn.metrics import accuracy_score, f1_score
+from sklearn.metrics import accuracy_score, f1_score, precision_score, recall_score
 import pandas as pd
 from typing import Optional, Tuple, Dict, Any
 
@@ -31,7 +31,7 @@ def preprocess_image(
 def predict_digit(session, img):
     input_name = session.get_inputs()[0].name
     output_name = session.get_outputs()[0].name
-
+    
     # if img.shape[1] == 2:  # (B, 2, H, W)
     #     third_channel = np.zeros_like(img[:, :1, :, :])  # shape: (B, 1, H, W)
     #     img = np.concatenate([img, third_channel], axis=1)  # (B, 3, H, W)
@@ -51,10 +51,15 @@ def evaluate_metrics(true_labels, pred_labels, position):
     """Вычисляет метрики для указанной позиции цифры."""
     accuracy = accuracy_score(true_labels, pred_labels)
     f1 = f1_score(true_labels, pred_labels, average='weighted', zero_division=0)
+    precision = precision_score(true_labels, pred_labels, average='weighted', zero_division=0)
+    recall = recall_score(true_labels, pred_labels, average='weighted', zero_division=0)
+    
     print(f"\n Позиция {position}:")
     print(f"Accuracy: {accuracy:.4f}")
-    print(f"F1: {f1:.4f}")
-    return {'Accuracy': accuracy, 'F1': f1}
+    # print(f"F1: {f1:.4f}")
+    # print(f"precision: {precision:.4f}")
+    # print(f"recall: {recall:.4f}")
+    return {'Accuracy': accuracy, 'F1': f1, 'precision': precision, 'recall': recall}
 
 def process_video(video_path, camera_params, metrics_data, onnx_session, output_dir, method=None, video_name=None):
     """Обрабатывает видео, предсказывает цифры и возвращает метрики"""
@@ -171,7 +176,9 @@ def process_video(video_path, camera_params, metrics_data, onnx_session, output_
                     "type": "date",
                     "position": i + 1,
                     "accuracy": metrics['accuracy'],
-                    "f1_score": metrics['f1']})
+                    "f1_score": metrics['f1'],
+                    "precision": metrics['precision'],
+                    "recall": metrics['recall']})
     for i in range(6):
         if time_predictions[i]['true']:
             valid_indices = [idx for idx, pred in enumerate(time_predictions[i]['pred']) if pred != -1]
@@ -184,18 +191,21 @@ def process_video(video_path, camera_params, metrics_data, onnx_session, output_
                     "type": "time",
                     "position": i + 1,
                     "accuracy": metrics['accuracy'],
-                    "f1_score": metrics['f1']})
+                    "f1_score": metrics['f1'],
+                    "precision": metrics['precision'],
+                    "recall": metrics['recall']
+                })
     return rows
 
 def main():
-    onnx_model_path = "main/24x24train_CNN9_80e/best.onnx"
+    onnx_model_path = "main/24x24train_CNN/best.onnx"
     video_dir = "sip_12022025/sip_12022025"
     metrics_dir = "metrics_params"
-    camera_params_path = "configs/camera_params_Rcopy.json"
+    camera_params_path = "configs/camera_params.json"
     output_dir = "metrics"
     method = "Nothing"
 
-    csv_folder = os.path.join(output_dir, "24x24train_CNN9_80e_metrics10")
+    csv_folder = os.path.join(output_dir, "24x24train_CNN")
     os.makedirs(csv_folder, exist_ok=True)
 
     session = ort.InferenceSession(onnx_model_path)
