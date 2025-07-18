@@ -1,0 +1,100 @@
+[1] Файл: dataset/val\5\aug_92_3.png
+[1] True: 5; Predicted: 8; Loss: 4.0640
+[2] Файл: dataset/val\5\aug_95_4.png
+[2] True: 5; Predicted: 8; Loss: 3.5280
+[3] Файл: dataset/val\5\aug_114_3.png
+[3] True: 5; Predicted: 6; Loss: 2.9195
+[4] Файл: dataset/val\7\aug_12_2.png
+[4] True: 7; Predicted: 1; Loss: 2.7453
+[5] Файл: dataset/val\9\aug_25_18.png
+[5] True: 9; Predicted: 1; Loss: 2.3056
+[6] Файл: dataset/val\3\aug_3_0.png
+[6] True: 3; Predicted: 8; Loss: 2.2801
+[7] Файл: dataset/val\9\aug_25_6.png
+[7] True: 9; Predicted: 8; Loss: 2.2554
+[8] Файл: dataset/val\9\aug_25_0.png
+[8] True: 9; Predicted: 8; Loss: 2.2537
+[9] Файл: dataset/val\9\aug_22_9.png
+[9] True: 9; Predicted: 8; Loss: 2.1685
+[10] Файл: dataset/val\5\aug_126_0.png
+[10] True: 5; Predicted: 8; Loss: 2.1266
+[11] Файл: dataset/val\5\aug_81_4.png
+[11] True: 5; Predicted: 8; Loss: 2.0142
+[12] Файл: dataset/val\5\aug_65_4.png
+[12] True: 5; Predicted: 6; Loss: 1.9892
+[13] Файл: dataset/val\5\aug_75_0.png
+[13] True: 5; Predicted: 9; Loss: 1.9591
+[14] Файл: dataset/val\9\aug_12_11.png
+[14] True: 9; Predicted: 8; Loss: 1.9427
+[15] Файл: dataset/val\9\aug_25_3.png
+[15] True: 9; Predicted: 8; Loss: 1.9400
+[16] Файл: dataset/val\5\aug_103_4.png
+[16] True: 5; Predicted: 8; Loss: 1.8929
+[17] Файл: dataset/val\5\aug_85_1.png
+[17] True: 5; Predicted: 8; Loss: 1.8585
+[18] Файл: dataset/val\6\aug_37_0.png
+[18] True: 6; Predicted: 8; Loss: 1.8276
+[19] Файл: dataset/val\9\aug_24_1.png
+[19] True: 9; Predicted: 4; Loss: 1.8218
+[20] Файл: dataset/val\5\aug_51_3.png
+[20] True: 5; Predicted: 3; Loss: 1.7861
+[21] Файл: dataset/val\5\aug_64_4.png
+[21] True: 5; Predicted: 8; Loss: 1.7769
+[22] Файл: dataset/val\5\aug_119_2.png
+[22] True: 5; Predicted: 8; Loss: 1.7737
+[23] Файл: dataset/val\6\aug_25_3.png
+[23] True: 6; Predicted: 8; Loss: 1.7515
+[24] Файл: dataset/val\5\aug_77_3.png
+[24] True: 5; Predicted: 8; Loss: 1.7374
+[25] Файл: dataset/val\3\aug_88_0.png
+[25] True: 3; Predicted: 0; Loss: 1.7180
+[26] Файл: dataset/val\4\aug_98_3.png
+[26] True: 4; Predicted: 7; Loss: 1.7179
+[27] Файл: dataset/val\3\aug_15_0.png
+[27] True: 3; Predicted: 4; Loss: 1.7144
+[28] Файл: dataset/val\3\aug_38_0.png
+[28] True: 3; Predicted: 0; Loss: 1.7059
+[29] Файл: dataset/val\6\aug_11_15.png
+[29] True: 6; Predicted: 9; Loss: 1.7039
+[30] Файл: dataset/val\8\aug_19_6.png
+[30] True: 8; Predicted: 9; Loss: 1.6848
+[31] Файл: dataset/val\3\aug_75_0.png
+[31] True: 3; Predicted: 8; Loss: 1.6397
+[32] Файл: dataset/val\5\aug_64_3.png
+[32] True: 5; Predicted: 8; Loss: 1.6099
+[33] Файл: dataset/val\9\aug_18_6.png
+[33] True: 9; Predicted: 1; Loss: 1.5984
+[34] Файл: dataset/val\9\aug_16_17.png
+[34] True: 9; Predicted: 8; Loss: 1.5923
+[35] Файл: dataset/val\7\aug_37_2.png
+[35] True: 7; Predicted: 1; Loss: 1.5469
+[36] Файл: dataset/val\9\aug_22_2.png
+[36] True: 9; Predicted: 1; Loss: 1.5278
+[37] Файл: dataset/val\9\aug_15_5.png
+[37] True: 9; Predicted: 5; Loss: 1.4679
+[38] Файл: dataset/val\5\aug_105_4.png
+[38] True: 5; Predicted: 8; Loss: 1.4645
+[39] Файл: dataset/val\9\aug_22_1.png
+[39] True: 9; Predicted: 8; Loss: 1.4385
+[40] Файл: dataset/val\5\aug_116_2.png
+[40] True: 5; Predicted: 8; Loss: 1.4125
+[41] Файл: dataset/val\3\aug_79_0.png
+[41] True: 3; Predicted: 8; Loss: 1.3404
+[42] Файл: dataset/val\4\aug_98_1.png
+[42] True: 4; Predicted: 7; Loss: 1.3317
+[43] Файл: dataset/val\3\aug_67_0.png
+[43] True: 3; Predicted: 0; Loss: 1.3019
+[44] Файл: dataset/val\6\aug_27_1.png
+[44] True: 6; Predicted: 6; Loss: 1.2920
+[45] Файл: dataset/val\5\aug_75_2.png
+[45] True: 5; Predicted: 6; Loss: 1.2436
+[46] Файл: dataset/val\9\aug_22_16.png
+[46] True: 9; Predicted: 9; Loss: 1.2407
+[47] Файл: dataset/val\8\aug_25_7.png
+[47] True: 8; Predicted: 4; Loss: 1.2365
+[48] Файл: dataset/val\9\aug_7_0.png
+[48] True: 9; Predicted: 9; Loss: 1.2204
+[49] Файл: dataset/val\6\cam_3245_02_1739435409_0_time_char_frame_702_pos_5.png
+[49] True: 6; Predicted: 6; Loss: 1.1813
+[50] Файл: dataset/val\1\aug_146_0.png
+[50] True: 1; Predicted: 7; Loss: 1.1759

@@ -1,0 +1,100 @@
+[1] Файл: dataset_clear/val\6\cam_3245_02_1739435409_0_time_char_frame_702_pos_5.png
+[1] True: 6; Predicted: 6; Loss: 1.1813
+[2] Файл: dataset_clear/val\6\cam_3245_02_1739435409_0_time_char_frame_162_pos_5.png
+[2] True: 6; Predicted: 6; Loss: 1.0708
+[3] Файл: dataset_clear/val\6\cam_3245_02_1739435409_0_time_char_frame_1782_pos_5.png
+[3] True: 6; Predicted: 6; Loss: 0.9899
+[4] Файл: dataset_clear/val\6\cam_3245_02_1739435409_0_time_char_frame_1512_pos_5.png
+[4] True: 6; Predicted: 6; Loss: 0.8506
+[5] Файл: dataset_clear/val\2\cam_3245_20_1739435409_1_date_char_frame_2214_pos_4.png
+[5] True: 2; Predicted: 2; Loss: 0.7778
+[6] Файл: dataset_clear/val\6\cam_3245_10_1739435409_0_time_char_frame_972_pos_5.png
+[6] True: 6; Predicted: 6; Loss: 0.7011
+[7] Файл: dataset_clear/val\9\cam_3245_10_1739435409_0_time_char_frame_1917_pos_5.png
+[7] True: 9; Predicted: 9; Loss: 0.6208
+[8] Файл: dataset_clear/val\2\cam_3245_20_1739435409_1_date_char_frame_2052_pos_4.png
+[8] True: 2; Predicted: 2; Loss: 0.5737
+[9] Файл: dataset_clear/val\6\cam_3245_10_1739435409_0_time_char_frame_162_pos_5.png
+[9] True: 6; Predicted: 6; Loss: 0.5728
+[10] Файл: dataset_clear/val\2\cam_3245_20_1739435409_1_date_char_frame_351_pos_6.png
+[10] True: 2; Predicted: 2; Loss: 0.5717
+[11] Файл: dataset_clear/val\6\cam_3245_10_1739435409_0_time_char_frame_1512_pos_5.png
+[11] True: 6; Predicted: 6; Loss: 0.5428
+[12] Файл: dataset_clear/val\6\cam_3245_10_1739435409_0_time_char_frame_432_pos_5.png
+[12] True: 6; Predicted: 6; Loss: 0.4746
+[13] Файл: dataset_clear/val\9\cam_3245_20_1739435409_1_time_char_frame_2565_pos_5.png
+[13] True: 9; Predicted: 9; Loss: 0.4564
+[14] Файл: dataset_clear/val\2\cam_3245_20_1739435409_1_date_char_frame_891_pos_4.png
+[14] True: 2; Predicted: 2; Loss: 0.4336
+[15] Файл: dataset_clear/val\6\cam_3245_02_1739435409_0_time_char_frame_675_pos_5.png
+[15] True: 6; Predicted: 6; Loss: 0.3959
+[16] Файл: dataset_clear/val\9\cam_3245_10_1739435409_0_time_char_frame_2457_pos_5.png
+[16] True: 9; Predicted: 9; Loss: 0.3841
+[17] Файл: dataset_clear/val\6\cam_3245_10_1739435409_0_time_char_frame_1998_pos_5.png
+[17] True: 6; Predicted: 6; Loss: 0.3756
+[18] Файл: dataset_clear/val\6\cam_3245_02_1739435409_0_time_char_frame_432_pos_5.png
+[18] True: 6; Predicted: 6; Loss: 0.3564
+[19] Файл: dataset_clear/val\6\cam_3245_10_1739435409_0_time_char_frame_2538_pos_5.png
+[19] True: 6; Predicted: 6; Loss: 0.3559
+[20] Файл: dataset_clear/val\6\cam_3245_02_1739435409_0_time_char_frame_2052_pos_5.png
+[20] True: 6; Predicted: 6; Loss: 0.3345
+[21] Файл: dataset_clear/val\2\cam_3245_20_1739435409_1_date_char_frame_2133_pos_4.png
+[21] True: 2; Predicted: 2; Loss: 0.3027
+[22] Файл: dataset_clear/val\9\cam_3245_10_1739435409_0_time_char_frame_1701_pos_5.png
+[22] True: 9; Predicted: 9; Loss: 0.3015
+[23] Файл: dataset_clear/val\9\cam_3245_24_1739435409_2_time_char_frame_2322_pos_5.png
+[23] True: 9; Predicted: 9; Loss: 0.2888
+[24] Файл: dataset_clear/val\2\cam_3245_20_1739435409_1_date_char_frame_2295_pos_4.png
+[24] True: 2; Predicted: 2; Loss: 0.2759
+[25] Файл: dataset_clear/val\9\cam_3245_10_1739435409_0_time_char_frame_81_pos_5.png
+[25] True: 9; Predicted: 9; Loss: 0.2757
+[26] Файл: dataset_clear/val\9\cam_3245_10_1739435409_0_time_char_frame_621_pos_5.png
+[26] True: 9; Predicted: 9; Loss: 0.2471
+[27] Файл: dataset_clear/val\9\cam_3245_10_1739435409_0_time_char_frame_1431_pos_5.png
+[27] True: 9; Predicted: 9; Loss: 0.2399
+[28] Файл: dataset_clear/val\6\cam_3245_10_1739435409_0_time_char_frame_1782_pos_5.png
+[28] True: 6; Predicted: 6; Loss: 0.2364
+[29] Файл: dataset_clear/val\9\cam_3245_10_1739435409_0_time_char_frame_1161_pos_5.png
+[29] True: 9; Predicted: 9; Loss: 0.2297
+[30] Файл: dataset_clear/val\3\cam_3245_20_1739435409_1_date_char_frame_351_pos_1.png
+[30] True: 3; Predicted: 3; Loss: 0.2290
+[31] Файл: dataset_clear/val\2\cam_3245_20_1739435409_1_date_char_frame_513_pos_4.png
+[31] True: 2; Predicted: 2; Loss: 0.2276
+[32] Файл: dataset_clear/val\6\cam_3245_10_1739435409_0_time_char_frame_702_pos_5.png
+[32] True: 6; Predicted: 6; Loss: 0.2270
+[33] Файл: dataset_clear/val\6\cam_3245_10_1739435409_0_time_char_frame_1242_pos_5.png
+[33] True: 6; Predicted: 6; Loss: 0.2244
+[34] Файл: dataset_clear/val\2\cam_3245_20_1739435409_1_date_char_frame_972_pos_4.png
+[34] True: 2; Predicted: 2; Loss: 0.2228
+[35] Файл: dataset_clear/val\6\cam_3245_02_1739435409_0_time_char_frame_972_pos_5.png
+[35] True: 6; Predicted: 6; Loss: 0.2165
+[36] Файл: dataset_clear/val\2\cam_3245_20_1739435409_1_date_char_frame_2430_pos_6.png
+[36] True: 2; Predicted: 2; Loss: 0.2123
+[37] Файл: dataset_clear/val\2\cam_3245_20_1739435409_1_date_char_frame_1593_pos_6.png
+[37] True: 2; Predicted: 2; Loss: 0.2115
+[38] Файл: dataset_clear/val\3\cam_3245_20_1739435409_1_date_char_frame_1728_pos_1.png
+[38] True: 3; Predicted: 3; Loss: 0.2111
+[39] Файл: dataset_clear/val\6\cam_3245_02_1739435409_0_time_char_frame_2322_pos_5.png
+[39] True: 6; Predicted: 6; Loss: 0.2062
+[40] Файл: dataset_clear/val\2\cam_3245_20_1739435409_1_date_char_frame_621_pos_6.png
+[40] True: 2; Predicted: 2; Loss: 0.2052
+[41] Файл: dataset_clear/val\9\cam_3245_10_1739435409_0_time_char_frame_2187_pos_5.png
+[41] True: 9; Predicted: 9; Loss: 0.1995
+[42] Файл: dataset_clear/val\9\cam_3245_10_1739435409_0_time_char_frame_351_pos_5.png
+[42] True: 9; Predicted: 9; Loss: 0.1988
+[43] Файл: dataset_clear/val\2\cam_3245_20_1739435409_1_date_char_frame_27_pos_6.png
+[43] True: 2; Predicted: 2; Loss: 0.1987
+[44] Файл: dataset_clear/val\3\cam_3245_20_1739435409_1_date_char_frame_162_pos_1.png
+[44] True: 3; Predicted: 3; Loss: 0.1940
+[45] Файл: dataset_clear/val\2\cam_3245_20_1739435409_1_date_char_frame_297_pos_4.png
+[45] True: 2; Predicted: 2; Loss: 0.1933
+[46] Файл: dataset_clear/val\3\cam_3245_20_1739435409_1_date_char_frame_270_pos_1.png
+[46] True: 3; Predicted: 3; Loss: 0.1926
+[47] Файл: dataset_clear/val\3\cam_3245_20_1739435409_1_date_char_frame_243_pos_1.png
+[47] True: 3; Predicted: 3; Loss: 0.1920
+[48] Файл: dataset_clear/val\2\cam_3245_20_1739435409_1_date_char_frame_810_pos_6.png
+[48] True: 2; Predicted: 2; Loss: 0.1902
+[49] Файл: dataset_clear/val\4\cam_3245_10_1739435409_0_time_char_frame_2430_pos_3.png
+[49] True: 4; Predicted: 4; Loss: 0.1894
+[50] Файл: dataset_clear/val\2\cam_3245_20_1739435409_1_time_char_frame_0_pos_5.png
+[50] True: 2; Predicted: 2; Loss: 0.1863
